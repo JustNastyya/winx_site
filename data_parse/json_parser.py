@@ -4,10 +4,11 @@ import os
 import io
 
 class JsonParser():
-    def __init__(self, dir):
-        with io.open(dir, encoding='utf-8', mode='r') as jsonFile:
-            self.info = json.load(jsonFile)
-            jsonFile.close()
+    def __init__(self, info):
+        #with io.open(dir, encoding='utf-8', mode='r') as jsonFile:
+        #    self.info = json.load(jsonFile)
+        #    jsonFile.close()
+        self.info = info
     
     def get_feie(self, name):
         return self.info[name]

@@ -1,4 +1,4 @@
-{
+info = {
     "blum" : {
         "eng": "blum",
         "name": "Блум",

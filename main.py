@@ -1,10 +1,11 @@
 from flask import Flask, render_template, redirect, request, url_for
 from data_parse.json_parser import *
+from data.feie import *
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
-info_parser = JsonParser('data\\feie.json')
+info_parser = JsonParser(info)
 
  # href="/feie/{{item}}"
 def main():
