@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<img src="{{ url_for('static', filename='img/' + info['eng'] + '.jpg') }}" class="rounded float-start"
+alt="" width="90%" height="30%" style='align-content: right; '
+>
+<a class=feei style='width: 40% !important; box-sizing: border-box !important;align-content: right !important;'>
+    <h1>{{info['name']}}</h1>
+    <h4 style='color:rgb(235, 78, 227)'>Статус: {{info['status']}}</h4>
+    <div>Общая информация: {{info['text']}}</div>
+</a>
+<a class="btn btn-outline-danger" href="/" style='margin: 30px'>Главная</a>
+
+{% endblock %}

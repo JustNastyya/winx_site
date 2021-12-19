@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Список самых лучших феечек</h1>
+{% for item in feie.keys()%}
+
+<a class="feei", style="border:1%">
+    <a href="\feie\?name={{item}}"> <h2 style='text-align: left'>{{feie[item]['name']}}</h2> </a>
+    <h4> {{feie[item]['status']}}</h4>
+    <div>
+        {{feie[item]['text'][:100]}} ....
+    </div>
+</a>
+
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,85 @@
+/* для base */
+
+h1 {
+    text-align: center !important;
+    border-bottom: black !important;
+}
+
+main {
+    margin-top: 3%;
+    margin-bottom: 30%;
+    position: relative;
+}
+
+.btn-success {
+    background-color: #f880f8 !important;
+}
+
+.feei {
+    border-bottom: black !important;
+    box-sizing: border-box !important;
+    width: 50% !important;
+}
+
+.side_bar {
+    z-index: 1;
+    position: fixed;
+    margin-top: 3%;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 500px;
+    border-right: 2px solid #f880f8 !important;
+    padding: 15px 20px;
+    float: left;
+    font-size: 18px;
+}
+
+.item_in_side_bar {
+    margin: 2% 2% 2% 2%;
+    width: 50px;
+}
+
+.to_main:hover {
+    border: black !important;
+    border-width: 1px;
+    background-color: rgb(219, 236, 241);
+    line-height: 1.5 !important;
+    border-radius: .25rem !important;
+}
+
+nav {
+    display: block;
+}
+
+.container {
+    flex-flow: wrap;
+    margin-left: 180px;
+}
+
+footer {
+    padding: 30px;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    background-color: #fceffc !important;
+    border: 1px solid black !important;
+    margin-bottom: 20px !important;
+    font-size: large;
+    padding: 5% 5% 5% 5% !important;
+}
+
+.main_page_content_text {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.copyright {
+    text-align: center;
+}
